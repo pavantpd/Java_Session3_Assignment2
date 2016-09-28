@@ -1,0 +1,16 @@
+package com.java.assignment1;
+
+public class Primernot 
+
+{
+	public void check(int i)
+
+	{		if((i%2==0&&i>2)||(i%3==0&&i>3)||(i%5==0&&i>5)||(i%7==0&&i>7))
+		 	System.out.println(" No " +i + " is not prime" );
+			else 
+			System.out.print( " Yes "+i +" is Prime");
+	//return 0;
+	}	
+}
+	
+	
